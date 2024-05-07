@@ -1,0 +1,97 @@
+.block-reveil {
+  position: absolute;
+  right: 0;
+  width: 55em;
+  height: 40em;
+}
+
+.reveil {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.cadrant {
+  width: 30em;
+  height: 9em;
+  background: linear-gradient(
+    to left,
+    rgba(20, 20, 20, 255),
+    rgba(30, 28, 29, 255)
+  );
+  position: absolute;
+  left: 12em;
+  top: 20.5em;
+  z-index: 1;
+  transform: rotate(16deg);
+  text-align: center;
+  box-shadow: inset 0 0 10px black;
+  color: #7bba53;
+}
+/* @font-face {
+  font-family: 'DS-Digital';
+  src: local('DS-Digital'), url('C:\Windows\Fonts\DS-Digital.TTF') format('TTF');
+} */
+.number {
+  font-size: 7em;
+  font-family: "DS-Digital", sans-serif;
+}
+
+.alarme {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 37.5em;
+  top: 7em;
+  z-index: 2;
+
+}
+
+.button-alarme {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.heure {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 27.5em;
+  top: 5em;
+  z-index: 2;
+}
+
+.button-heure {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.minute {
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 22.5em;
+  top: 4em;
+  z-index: 2;
+}
+
+.button-minute {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.audio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
